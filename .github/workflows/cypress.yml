@@ -15,10 +15,7 @@ jobs:
   
       - name: Install dependencies
         run: npm install  
-      
-      - name: open cypress
-        run: npm run cy.open
-        browser: chrome
-
+      - name: Execute cypres
+        run: npx cypress open --browser chrome
       - name: Build
         run: npm run test
