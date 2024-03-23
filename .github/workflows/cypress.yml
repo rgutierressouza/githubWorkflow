@@ -17,9 +17,7 @@ jobs:
         run: npm install  
       
       - name: open cypress
-        run: cypress open
+        run: npm run cy.open
+
       - name: Build
-        run: npm run
-  
-      - name: Test
-        run: npm test 
+        run: npm run test
