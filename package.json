@@ -4,7 +4,6 @@
   "description": "Testes Automatizados de API",
   "main": "index.js",
   "scripts": {
-    "cy.open": "cypress open",
     "test": "cypress run"
   },
   "repository": {
